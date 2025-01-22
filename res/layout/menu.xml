@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="space_between"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/profile_picture"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_picture" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/search_icon_description"
+                android:contentDescription="@drawable/search_icon_description"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="search"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="8dp"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <!-- Categories Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <!-- Healthy Food -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginEnd="16dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/healthy_food"
+                    android:scaleType="centerCrop"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/healthy_food" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Makanan sehat"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <!-- Fast Food -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginEnd="16dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/fast_food"
+                    android:scaleType="centerCrop"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/fast_food" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Makanan Cepat Saji"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <!-- Drinks -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/drink"
+                    android:scaleType="centerCrop"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/drinks" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Minuman"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Promotions Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle_3"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Promo bundle hemat"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diskon 20% untuk pembelian burger + kentang goreng.\nHarga Promo: Rp 48.000"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/burger_and_fries"
+                android:scaleType="centerCrop"
+                android:layout_gravity="end|bottom"
+                android:contentDescription="@string/burger_and_fries" />
+        </LinearLayout>
+
+        <!-- Popular Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Populer"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Popular Item 1 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/rectangle_5"
+                android:padding="16dp"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/sate_ayam_madura"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/sate_ayam_madura" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sate Ayam Madura (10 tusuk)"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harga: Rp 30.000"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+            <!-- Popular Item 2 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/rectangle_5"
+                android:padding="16dp"
+                android:layout_marginStart="8dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thai_tea_original"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/thai_tea_original" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thai Tea Original"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harga: Rp 18.000"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

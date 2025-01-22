@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/food_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_background"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/food_image"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/food_image"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="Tasty Dash"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="179dp"
+        android:layout_height="63dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#D1C4E9"
+        android:text="Get Started"
+        android:textColor="#673AB7"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

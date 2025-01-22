@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="healthy_food">Healthy food</string>
+    <string name="fast_food">Fast food</string>
+    <string name="drinks">Drinks</string>
+    <string name="burger_and_fries">Burger and fries</string>
+    <string name="sate_ayam_madura">Sate Ayam Madura</string>
+    <string name="thai_tea_original">Thai Tea Original</string>
+    <string name="add">Add</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="user">User</string>
+</resources>

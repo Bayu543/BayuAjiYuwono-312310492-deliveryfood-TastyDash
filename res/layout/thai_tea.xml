@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <!-- Image and Back Button -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/thai_tea_original"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_corners"/>
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_arrow"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back Button"
+            android:tint="@color/white"
+            android:layout_margin="16dp"/>
+    </RelativeLayout>
+
+    <!-- Title and Rating -->
+    <TextView
+        android:id="@+id/productTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thaitea Original"
+        android:textSize="20sp"
+        android:fontFamily="@font/robot_m"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="★"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="16sp"
+            android:paddingEnd="4dp"/>
+
+        <TextView
+            android:id="@+id/productRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.9"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/productDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teh Thailand klasik yang creamy, perpaduan sempurna teh hitam dan susu manis."
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:fontFamily="@font/poppins_light"
+        android:layout_marginTop="8dp" />
+
+    <!-- Cup Size Slider -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ukuran Cup"
+        android:fontFamily="@font/robot_m"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp" />
+
+    <SeekBar
+        android:id="@+id/cupSizeSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:progress="50" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small"
+            android:fontFamily="@font/robot_m"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Big"
+            android:fontFamily="@font/robot_m"/>
+    </LinearLayout>
+
+    <!-- Sugar Slider -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugar"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/robot_m"/>
+
+    <SeekBar
+        android:id="@+id/sugarSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        android:layout_marginTop="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Less"
+            android:fontFamily="@font/robot_m"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra"
+            android:fontFamily="@font/robot_m"/>
+    </LinearLayout>
+
+    <!-- Quantity Selector -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Porsi"
+            android:textSize="14sp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/robot_m"/>
+
+        <Button
+            android:id="@+id/decreasePortion"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="-"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/portionCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="16dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/increasePortion"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="+"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <!-- Price and Order Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 18.000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_price_background"
+            android:padding="10dp"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/orderButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Order Now"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/brown"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>
