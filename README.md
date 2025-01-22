@@ -80,8 +80,59 @@ Tasty Dash adalah aplikasi mobile untuk memesan makanan secara online. Desain ap
 
 ![Tampilan_Dalam_Menu_2](https://github.com/user-attachments/assets/69d03f66-31d2-4a71-9d7e-4b3778d77689)
 
+---
+
+### 7. **Halaman Pembayaran**
+   - **Deskripsi**: Memungkinkan pengguna untuk melakukan pembayaran pesanan.
+   - **Fitur**:
+     - Informasi ringkasan pesanan.
+     - Pilihan metode pembayaran (misalnya: Kartu Kredit, Debit).
+     - Tombol *Pay Now* untuk menyelesaikan pembayaran.
+
 ![Paymen 2](https://github.com/user-attachments/assets/1277236c-ee1c-4894-a6b7-69a7682451cc)
+
+---
+
+### 8. **Pop-Up Konfirmasi**
+   - **Deskripsi**: Menampilkan pop-up sukses setelah pembayaran selesai.
+   - **Fitur**:
+     - Notifikasi visual dengan ikon centang dan teks "Success".
 
 ![Popup_messege](https://github.com/user-attachments/assets/86e43fa9-6220-4ed1-bc97-20a52766acd0)
 
+---
+
+### 9. **Profil Pengguna**
+   - **Deskripsi**: Halaman profil pengguna yang menampilkan informasi akun.
+   - **Fitur**:
+     - Foto profil.
+     - Detail akun seperti nama dan email.
+     - Tombol untuk keluar (*Logout*).
+
 ![Profile](https://github.com/user-attachments/assets/7684bd76-50d9-4841-b1c2-65012ae8292c)
+
+---
+
+## Teknologi yang Disarankan
+- **Bahasa Pemrograman**: Kotlin atau Java (untuk Android).
+- **Desain**: XML untuk layout UI.
+- **Animasi**:
+  - Transisi antar halaman menggunakan `ObjectAnimator` atau animasi bawaan Android (`res/anim`).
+  - Efek pop-up dengan `DialogFragment`.
+
+---
+
+## Fitur Tambahan yang Direkomendasikan
+1. **Notifikasi**:
+   - Menggunakan *Push Notification* untuk promosi dan pembaruan pesanan.
+2. **Simpan Favorit**:
+   - Tambahkan opsi untuk menyimpan makanan/minuman favorit.
+3. **Filter dan Sortir**:
+   - Filter berdasarkan harga, kategori, atau ulasan.
+4. **Ulasan Pengguna**:
+   - Tambahkan fitur untuk memberikan ulasan dan rating pada menu.
+
+---
+
+## Catatan
+Gambar desain ini mencakup perjalanan lengkap pengguna dari pendaftaran hingga pembayaran. Setiap elemen dirancang untuk memberikan pengalaman pengguna yang mulus dan intuitif.
