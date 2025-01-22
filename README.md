@@ -1,3 +1,15 @@
+# Project UAS
+
+## Profil
+| Variable | Isi |
+| -------- | --- |
+| **Nama** |Bayu Aji Yuwono|
+| **NIM** | 312310492 |
+| **Kelas** | TI.23.A.5 |
+| **Mata Kuliah** | Pemrograman mobile |
+| **Dosen** | Donny Maulana, S.Kom., M.M.S.I. |
+
+
 # Tasty Dash - Aplikasi Pemesanan Makanan
 
 ## Deskripsi
