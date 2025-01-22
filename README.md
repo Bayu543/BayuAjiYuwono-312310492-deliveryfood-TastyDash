@@ -1,3 +1,17 @@
+# Tasty Dash - Aplikasi Pemesanan Makanan
+
+## Deskripsi
+Tasty Dash adalah aplikasi mobile untuk memesan makanan secara online. Desain aplikasi ini dirancang untuk memberikan pengalaman pengguna yang sederhana, cepat, dan menarik. Pengguna dapat mencari, memilih, dan memesan makanan dari berbagai kategori serta melakukan pembayaran langsung melalui aplikasi.
+
+---
+
+## Struktur Antarmuka
+
+### 1. **Tampilan Awal (Splash Screen)**
+   - **Deskripsi**: Halaman pembuka aplikasi yang menampilkan logo dan nama aplikasi *Tasty Dash*.
+   - **Fitur**:
+     - Tombol *Get Started* untuk masuk ke halaman login atau daftar.
+
 ![Tampilan](https://github.com/user-attachments/assets/5d38eb86-d52a-4d59-9816-dc97dda50bfe)
 
 ![Login signup](https://github.com/user-attachments/assets/4e64e11f-681a-4034-9871-ccc01440a102)
