@@ -24,17 +24,53 @@ Tasty Dash adalah aplikasi mobile untuk memesan makanan secara online. Desain ap
      - Formulir untuk membuat akun baru, termasuk nama, email, dan kata sandi.
      - Tombol *Sign Up* untuk mendaftarkan akun baru.
 
+![Login signup](https://github.com/user-attachments/assets/4e64e11f-681a-4034-9871-ccc01440a102)
+
 ---
 
-![Login signup](https://github.com/user-attachments/assets/4e64e11f-681a-4034-9871-ccc01440a102)
+### 3. **Menu Utama**
+   - **Deskripsi**: Halaman utama aplikasi yang menampilkan kategori makanan dan promosi.
+   - **Fitur**:
+     - **Pencarian**: Bar pencarian untuk mencari makanan atau minuman.
+     - **Kategori**: Pilihan kategori seperti Makanan Sehat, Makanan Cepat Saji, dan Minuman.
+     - **Promosi**: Banner promosi diskon atau penawaran khusus.
+     - **Populer**: Daftar menu makanan/minuman yang populer.
 
 ![login](https://github.com/user-attachments/assets/335d078f-b4eb-4b1e-b8f8-6c6a3e804c5a)
 
+---
+
+### 4. **Halaman Kategori Makanan**
+   - **Deskripsi**: Menampilkan daftar menu makanan berdasarkan kategori.
+   - **Fitur**:
+     - Informasi tentang nama makanan, harga, dan tombol tambah ke keranjang.
+
 ![signup](https://github.com/user-attachments/assets/583bdcf2-216b-4897-8fb2-52c65f2c4049)
+
+---
+
+### 5. **Detail Produk**
+   - **Deskripsi**: Halaman detail untuk setiap makanan atau minuman.
+   - **Fitur**:
+     - Gambar produk.
+     - Deskripsi makanan/minuman.
+     - Harga.
+     - Tombol untuk menambah ke keranjang.
+     - Tombol untuk memesan langsung.
 
 ![Menu](https://github.com/user-attachments/assets/4495f2d7-2e97-4df3-9de9-2e411cd132e5)
 
+---
+
+### 6. **Keranjang Belanja**
+   - **Deskripsi**: Menampilkan semua item yang telah ditambahkan ke keranjang.
+   - **Fitur**:
+     - Daftar item dengan jumlah, harga per item, dan total harga.
+     - Tombol untuk melanjutkan pembayaran.
+
 ![Search](https://github.com/user-attachments/assets/149e6b9f-c0ce-4175-9024-671814ed2cca)
+
+---
 
 ![Makanan_cepat_saji](https://github.com/user-attachments/assets/eceea979-d97f-4403-a1d0-755c6f57746e)
 
