@@ -14,6 +14,18 @@ Tasty Dash adalah aplikasi mobile untuk memesan makanan secara online. Desain ap
 
 ![Tampilan](https://github.com/user-attachments/assets/5d38eb86-d52a-4d59-9816-dc97dda50bfe)
 
+---
+
+### 2. **Halaman Login & Sign Up**
+   - **Login**:
+     - Formulir untuk memasukkan nama pengguna (email) dan kata sandi.
+     - Tombol *Login* untuk masuk ke aplikasi.
+   - **Sign Up**:
+     - Formulir untuk membuat akun baru, termasuk nama, email, dan kata sandi.
+     - Tombol *Sign Up* untuk mendaftarkan akun baru.
+
+---
+
 ![Login signup](https://github.com/user-attachments/assets/4e64e11f-681a-4034-9871-ccc01440a102)
 
 ![login](https://github.com/user-attachments/assets/335d078f-b4eb-4b1e-b8f8-6c6a3e804c5a)
